@@ -21,14 +21,10 @@ body, html {
 font-size: 40px;
 }
 
-.p {
-  font-family: 'Roboto', sans-serif;
-
-}
 
 .section1{
   width: 100%;
-  background-color: #eee;
+  background-color: #111;
 }
 
 .section2{
@@ -38,7 +34,21 @@ font-size: 40px;
 }
 
 .top-img{
+  width: 500px;
+}
+
+.side-img{
   width: 100%;
+}
+
+.inread-img{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.bottom-img{
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 .content {
