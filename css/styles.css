@@ -34,7 +34,7 @@ font-size: 40px;
 }
 
 .top-img{
-  width: 500px;
+  width: 90%;
 }
 
 .side-img{
@@ -53,4 +53,22 @@ font-size: 40px;
 
 .content {
   padding: 20px 0px 60px 0px;
+}
+
+@media screen and (max-width: 576px) {
+    .mobile {
+        display: block;
+    }
+    .desktop{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .mobile {
+        display: none;
+    }
+    .desktop{
+        display: block;
+    }
 }
