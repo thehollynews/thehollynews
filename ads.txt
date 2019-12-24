@@ -136,6 +136,7 @@ google.com, pub-9557089510405422, RESELLER, f08c47fec0942fa0
 google.com, pub-9685734445476814, RESELLER, f08c47fec0942fa0
 google.com, pub-9996990540947180, DIRECT, f08c47fec0942fa0
 google.com,pub-9557089510405422,RESELLER,f08c47fec0942fa0
+google.com, pub-2153431257373264, RESELLER, f08c47fec0942fa0
 groundtruth.com, 107, RESELLER, 81cbf0a75a5e0e9a
 gumgum.com, 11645, RESELLER, ffdef49475d318a9
 gumgum.com, 13504, DIRECT, ffdef49475d318a9
