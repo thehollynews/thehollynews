@@ -56,6 +56,9 @@
           
           gptAdSlots[20] = googletag.defineSlot('/204286274/IE300x600', [300, 600], 'adslot-div20').setCollapseEmptyDiv(true, true).addService(googletag.pubads());
 
+          
+           gptAdSlots[30] = googletag.defineSlot('/204286274/IE728', [728, 90], 'adslot-div30').setCollapseEmptyDiv(true, true).addService(googletag.pubads());
+
           // Configure SRA
             googletag.pubads().enableSingleRequest();
             googletag.pubads().disableInitialLoad();
@@ -121,7 +124,17 @@
 <body>
   <div class="section banner-ad">
     <div class="ad-wrapper-1">
-      <div id="div-gpt-ad-1577204202530-0" class="ad-1"></div>
+<!--       <div id="div-gpt-ad-1577204202530-0" class="ad-1"></div> -->
+          
+                     <div id='adslot-div30' class="adslot-container">
+        <script>
+            googletag.cmd.push(function () {
+              googletag.display('adslot-div30');
+              googletag.pubads().refresh([gptAdSlots[30], ] ); 
+            });
+            
+        </script>
+    </div>
     </div>
   </div>
   <div class="section header">
