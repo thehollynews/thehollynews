@@ -38,13 +38,13 @@
     
         googletag.cmd.push(function () {
             // Define the first slot
-            gptAdSlots[0] = googletag.defineSlot('/204286274/IE300x250', [300, 250], 'adslot-div0').addService(googletag.pubads());
-          gptAdSlots[1] = googletag.defineSlot('/204286274/IE300x250', [300, 250], 'adslot-div1').addService(googletag.pubads());
-          gptAdSlots[2] = googletag.defineSlot('/204286274/IE300x250', [300, 250], 'adslot-div2').addService(googletag.pubads());
-          gptAdSlots[3] = googletag.defineSlot('/204286274/IE300x250', [300, 250], 'adslot-div3').addService(googletag.pubads());
-          gptAdSlots[4] = googletag.defineSlot('/204286274/IE300x250', [300, 250], 'adslot-div4').addService(googletag.pubads());
-          gptAdSlots[5] = googletag.defineSlot('/204286274/IE300x250', [300, 250], 'adslot-div5').addService(googletag.pubads());
-  
+           gptAdSlots[0] = googletag.defineSlot('/204286274/IE300x250', [300, 250], 'adslot-div0').setCollapseEmptyDiv(true, true).addService(googletag.pubads());
+          gptAdSlots[1] = googletag.defineSlot('/204286274/IE300x250', [300, 250], 'adslot-div1').setCollapseEmptyDiv(true, true).addService(googletag.pubads());
+          gptAdSlots[2] = googletag.defineSlot('/204286274/IE300x250', [300, 250], 'adslot-div2').setCollapseEmptyDiv(true, true).addService(googletag.pubads());
+          gptAdSlots[3] = googletag.defineSlot('/204286274/IE300x250', [300, 250], 'adslot-div3').setCollapseEmptyDiv(true, true).addService(googletag.pubads());
+          gptAdSlots[4] = googletag.defineSlot('/204286274/IE300x250', [300, 250], 'adslot-div4').setCollapseEmptyDiv(true, true).addService(googletag.pubads());
+          gptAdSlots[5] = googletag.defineSlot('/204286274/IE300x250', [300, 250], 'adslot-div5').setCollapseEmptyDiv(true, true).addService(googletag.pubads());
+
             // Configure SRA
             googletag.pubads().enableSingleRequest();
             googletag.pubads().disableInitialLoad();
