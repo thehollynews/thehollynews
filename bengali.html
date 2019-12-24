@@ -38,13 +38,17 @@
     
         googletag.cmd.push(function () {
             // Define the first slot
-           gptAdSlots[0] = googletag.defineSlot('/204286274/IE300x250', [300, 250], 'adslot-div0').setCollapseEmptyDiv(true, true).addService(googletag.pubads());
+
+          gptAdSlots[0] = googletag.defineSlot('/204286274/IE300x250', [300, 250], 'adslot-div0').setCollapseEmptyDiv(true, true).addService(googletag.pubads());
           gptAdSlots[1] = googletag.defineSlot('/204286274/IE300x250', [300, 250], 'adslot-div1').setCollapseEmptyDiv(true, true).addService(googletag.pubads());
           gptAdSlots[2] = googletag.defineSlot('/204286274/IE300x250', [300, 250], 'adslot-div2').setCollapseEmptyDiv(true, true).addService(googletag.pubads());
           gptAdSlots[3] = googletag.defineSlot('/204286274/IE300x250', [300, 250], 'adslot-div3').setCollapseEmptyDiv(true, true).addService(googletag.pubads());
           gptAdSlots[4] = googletag.defineSlot('/204286274/IE300x250', [300, 250], 'adslot-div4').setCollapseEmptyDiv(true, true).addService(googletag.pubads());
           gptAdSlots[5] = googletag.defineSlot('/204286274/IE300x250', [300, 250], 'adslot-div5').setCollapseEmptyDiv(true, true).addService(googletag.pubads());
-    googletag.defineSlot('/204286274/IE300x250', [300, 250], 'div-gpt-ad-1577204142675-0').addService(googletag.pubads()).setCollapseEmptyDiv(true,true);
+          gptAdSlots[6] = googletag.defineSlot('/204286274/IE300x250', [300, 250], 'adslot-div6').setCollapseEmptyDiv(true, true).addService(googletag.pubads());
+          gptAdSlots[7] = googletag.defineSlot('/204286274/IE300x250', [300, 250], 'adslot-div7').setCollapseEmptyDiv(true, true).addService(googletag.pubads());
+          gptAdSlots[7] = googletag.defineSlot('/204286274/IE300x250', [300, 250], 'adslot-div8').setCollapseEmptyDiv(true, true).addService(googletag.pubads());
+
 
             // Configure SRA
             googletag.pubads().enableSingleRequest();
@@ -135,11 +139,15 @@
             <p>Krishnakoli is a popular bengali soap opera that narrates the story of a dusky village girl Shyama and her hardship. Played by Tiyasha, Shyama is a talented Keertan singer who sets on a journey to create her own identity after marriage. The story revolves around how she deals with obstacles while following her passion for singing and dancing.<br></p>
             <div class="w-embed w-script">
               <div class="inblogad">
-                <div id="div-gpt-ad-1577204142675-0" style="width: 300px; height: 250px;">
-                  <script>
-    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1577204142675-0'); });
-  </script>
-                </div>
+                <div id='adslot-div8' class="adslot-container">
+        <script>
+            googletag.cmd.push(function () {
+              googletag.display('adslot-div8');
+              googletag.pubads().refresh([gptAdSlots[8], ] ); 
+            });
+            
+        </script>
+    </div>
               </div>
             </div>
             <h3>Karunamoyee Rani Rashmoni</h3>
@@ -148,11 +156,13 @@
             </figure>
             <p>A periodic Bengali drama TV series Karunamoyee Rani Rashmoni is based on a true story that took place around 1700&#x27;s in the male dominating society of Kolkata. Ditipriya Roy plays the lead in this TV series that narrates life events of Rani Rashmoni.<br></p>
            
-             <div id='adslot-div0' class="adslot-container">
+                     <div id='adslot-div0' class="adslot-container">
         <script>
             googletag.cmd.push(function () {
-                googletag.display('adslot-div0');
+              googletag.display('adslot-div0');
+              googletag.pubads().refresh([gptAdSlots[0], ] ); 
             });
+            
         </script>
     </div>
             <h3>Alo Chhaya<br></h3>
@@ -166,8 +176,10 @@
              <div id='adslot-div1' class="adslot-container">
         <script>
             googletag.cmd.push(function () {
-                googletag.display('adslot-div1');
+              googletag.display('adslot-div1');
+              googletag.pubads().refresh([gptAdSlots[1], ] ); 
             });
+            
         </script>
     </div>
             
@@ -179,11 +191,13 @@
             
             
             
-             <div id='adslot-div2' class="adslot-container">
+ <div id='adslot-div2' class="adslot-container">
         <script>
             googletag.cmd.push(function () {
-                googletag.display('adslot-div2');
+              googletag.display('adslot-div2');
+              googletag.pubads().refresh([gptAdSlots[2], ] ); 
             });
+            
         </script>
     </div>
             <h3>Dadagiri Unlimited Season<br></h3>
@@ -193,11 +207,13 @@
             <p>Sourav Ganguly hosts one of the most memorable bangla quiz shows. The show eneavours to find and showcase the best talent in Bengal, across various fields.<br></p>
             
             
-             <div id='adslot-div3' class="adslot-container">
+       <div id='adslot-div3' class="adslot-container">
         <script>
             googletag.cmd.push(function () {
-                googletag.display('adslot-div3');
+              googletag.display('adslot-div3');
+              googletag.pubads().refresh([gptAdSlots[3], ] ); 
             });
+            
         </script>
     </div>
             
@@ -209,14 +225,15 @@
           
             
             
-             <div id='adslot-div4' class="adslot-container">
+  <div id='adslot-div4' class="adslot-container">
         <script>
             googletag.cmd.push(function () {
-                googletag.display('adslot-div4');
+              googletag.display('adslot-div4');
+              googletag.pubads().refresh([gptAdSlots[4], ] ); 
             });
+            
         </script>
     </div>
-            
             <h3>Trinayani<br></h3>
             <figure class="w-richtext-align-center w-richtext-figure-type-image">
               <div><img src="images/Trinayani.jpg" alt=""></div>
@@ -225,14 +242,15 @@
            
             
             
-             <div id='adslot-div4' class="adslot-container">
+  <div id='adslot-div5' class="adslot-container">
         <script>
             googletag.cmd.push(function () {
-                googletag.display('adslot-div4');
+              googletag.display('adslot-div5');
+              googletag.pubads().refresh([gptAdSlots[5], ] ); 
             });
+            
         </script>
     </div>
-            
             
             <h3>Joy Baba Lokenath<br></h3>
             <figure class="w-richtext-align-center w-richtext-figure-type-image">
@@ -241,11 +259,13 @@
             <p>Joy Baba Lokenath is a Bengali devotional drama television series on the life story of Baba Lokenath. Known as the Messiah for his compassion, kindness and divine grace, Baba Lokenath’s teachings have shown millions the path of tolerance and courage to overcome every hurdle in life. <br></p>
           
             
-             <div id='adslot-div5' class="adslot-container">
+  <div id='adslot-div6' class="adslot-container">
         <script>
             googletag.cmd.push(function () {
-                googletag.display('adslot-div5');
+              googletag.display('adslot-div6');
+              googletag.pubads().refresh([gptAdSlots[6], ] ); 
             });
+            
         </script>
     </div>
             
@@ -255,6 +275,17 @@
               <div><img src="images/netaji.png" alt=""></div>
             </figure>
             <p>Netaji is a Bengali television series based on the life and journey of Subhas Chandra Bose. This patriotic drama series narrates the incidents in the life of a young Subhash who joined the freedom struggle and went on to become one.<br></p>
+      
+          
+           <div id='adslot-div7' class="adslot-container">
+        <script>
+            googletag.cmd.push(function () {
+              googletag.display('adslot-div7');
+              googletag.pubads().refresh([gptAdSlots[7], ] ); 
+            });
+            
+        </script>
+    </div>
           </div>
         </div>
         <div class="blog-post-col3">
