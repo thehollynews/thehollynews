@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/thehollynews.iml" filepath="$PROJECT_DIR$/.idea/thehollynews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/zee5-staticpage.webflow.iml" filepath="$PROJECT_DIR$/.idea/zee5-staticpage.webflow.iml" />
     </modules>
   </component>
 </project>
