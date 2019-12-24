@@ -346,12 +346,6 @@ a {
   color: #fff;
 }
 
-.header-content-bengali.telugu {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(5, 8, 39, 0.6)), to(rgba(5, 8, 39, 0.6))), url('../images/2.jpg');
-  background-image: linear-gradient(180deg, rgba(5, 8, 39, 0.6), rgba(5, 8, 39, 0.6)), url('../images/2.jpg');
-  background-position: 0px 0px, 50% 50%;
-}
-
 .header-content-kannada {
   display: -webkit-box;
   display: -webkit-flex;
@@ -380,12 +374,6 @@ a {
   color: #fff;
 }
 
-.header-content-kannada.telugu {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(5, 8, 39, 0.6)), to(rgba(5, 8, 39, 0.6))), url('../images/2.jpg');
-  background-image: linear-gradient(180deg, rgba(5, 8, 39, 0.6), rgba(5, 8, 39, 0.6)), url('../images/2.jpg');
-  background-position: 0px 0px, 50% 50%;
-}
-
 .header-content-hindi {
   display: -webkit-box;
   display: -webkit-flex;
@@ -412,12 +400,6 @@ a {
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   color: #fff;
-}
-
-.header-content-hindi.telugu {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(5, 8, 39, 0.6)), to(rgba(5, 8, 39, 0.6))), url('../images/2.jpg');
-  background-image: linear-gradient(180deg, rgba(5, 8, 39, 0.6), rgba(5, 8, 39, 0.6)), url('../images/2.jpg');
-  background-position: 0px 0px, 50% 50%;
 }
 
 .link {
