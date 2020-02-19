@@ -87,6 +87,12 @@ contextweb.com,560288,RESELLER,89ff185a4c4e857c
 contextweb.com,561153,RESELLER,89ff185a4c4e857c
 conversantmedia.com, 40790, DIRECT, 03113cd04947736d
 conversantmedia.com, 40790, RESELLER, 03113cd04947736d
+google.com, pub-9996990540947180, DIRECT, f08c47fec0942fa0
+google.com, pub-6036153029509329, DIRECT, f08c47fec0942fa0
+google.com, pub-3565385483761681, DIRECT, f08c47fec0942fa0
+google.com, pub-2153431257373264, DIRECT, f08c47fec0942fa0
+google.com, pub-8804303781641925, DIRECT, f08c47fec0942fa0
+google.com, pub-9685734445476814, RESELLER, f08c47fec0942fa0
 districtm.io, 100808, DIRECT
 districtm.io, 100808, RESELLER
 districtm.io, 101490, RESELLER
